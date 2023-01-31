@@ -8,4 +8,3 @@ while len(lottery_numbers) < 6:
         lottery_numbers.append(number)
 
 print(', '.join(str(x) for x in sorted(lottery_numbers)))
-
